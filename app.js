@@ -277,7 +277,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: adrainbialon/ultimate-cicd:14
+        image: ***********/ultimate-cicd:14
         ports:
         - containerPort: 8081`,
         explanation: "This is the Declarative Infrastructure manifest for Kubernetes. \n\nHow it works: It tells Kubernetes to ensure exactly 2 replicas (pods) of the application are running at all times for high availability. \n\nThe Magic: Notice the image tag '14'. In the raw repository, this says 'replaceImageTag'. Jenkins uses a Linux 'sed' command to dynamically swap that placeholder with the actual build number before ArgoCD deploys it."
@@ -313,13 +313,13 @@ spec:
 
     environment {
         SUB_DIR           = 'jenkins'
-        DOCKER_HUB_USER   = 'adrainbialon'
+        DOCKER_HUB_USER   = '*************'
         DOCKER_IMAGE_NAME = 'ultimate-cicd'
         DOCKER_CRED_ID    = 'docker-cred'
         SONAR_URL         = 'http://107.21.164.185:9000'
         SONAR_CRED_ID     = 'sonarqube'
-        GITHUB_USER       = 'Muhammad-Zubair796'
-        GITHUB_EMAIL      = 'adrainbialon@gmail.com'
+        GITHUB_USER       = 'Muhammad-Zubair'
+        GITHUB_EMAIL      = '*********@gmail.com'
         GITHUB_REPO       = 'jenkins-cicd'
         GITHUB_CRED_ID    = 'github'
     }
