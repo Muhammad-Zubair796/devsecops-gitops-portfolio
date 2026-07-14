@@ -22,4 +22,4 @@ The live demo visualizes a pipeline built with:
 * **Kubernetes / Minikube** (Container Orchestration)
 * **Argo CD** (Declarative GitOps Continuous Deployment)
 
-👉 **[Click here to view the live interactive demonstration](https://YOUR-RENDER-LINK-HERE.onrender.com)**
+👉 **[Click here to view the live interactive demonstration](https://devsecops-gitops-portfolio.onrender.com)**
