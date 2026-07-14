@@ -1,6 +1,6 @@
 # 🚀 Interactive DevSecOps & GitOps Portfolio
 
-[![Live Interactive Demo](https://img.shields.io/badge/View_Live_Interactive_Demo-0f172a?style=for-the-badge&logo=render&logoColor=white)](https://YOUR-RENDER-LINK-HERE.onrender.com)
+[![Live Interactive Demo](https://img.shields.io/badge/View_Live_Interactive_Demo-0f172a?style=for-the-badge&logo=render&logoColor=white)](https://devsecops-gitops-portfolio.onrender.com)
 
 Welcome to my interactive engineering portfolio! This repository contains the frontend source code for a custom-built, interactive dashboard designed to showcase my latest **End-to-End DevSecOps & GitOps Pipeline**.
 
